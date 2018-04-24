@@ -1,6 +1,6 @@
 {
-  "name": "nixie-clock",
-  "version": "1.0.0",
+  "name": "vue-nixie-clock",
+  "version": "0.1.0",
   "description": "A Nixie Clock Vue Component",
   "main": "src/NixieClock.vue",
   "scripts": {

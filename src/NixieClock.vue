@@ -28,33 +28,33 @@ export default {
         }
     },
     watch: {
-        active: {
-            immediate: true,
-            handler(active) {
-                if (active) {
-                    requestAnimationFrame(this.step)
-                }
+        active(active) {
+            if (active) {
+                requestAnimationFrame(this.step)
             }
         }
     },
+    mounted() {
+        this.step()
+    },
     methods: {
         step() {
-            let date = new Date()
-
-            this.hours = date
-                .getHours()
-                .toString()
-                .padStart(2, '0')
-            this.minutes = date
-                .getMinutes()
-                .toString()
-                .padStart(2, '0')
-            this.seconds = date
-                .getSeconds()
-                .toString()
-                .padStart(2, '0')
-
             if (this.active) {
+                let date = new Date()
+
+                this.hours = date
+                    .getHours()
+                    .toString()
+                    .padStart(2, '0')
+                this.minutes = date
+                    .getMinutes()
+                    .toString()
+                    .padStart(2, '0')
+                this.seconds = date
+                    .getSeconds()
+                    .toString()
+                    .padStart(2, '0')
+
                 requestAnimationFrame(this.step)
             }
         }
