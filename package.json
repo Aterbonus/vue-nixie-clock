@@ -1,0 +1,21 @@
+{
+  "name": "nixie-clock",
+  "version": "1.0.0",
+  "description": "A Nixie Clock Vue Component",
+  "main": "src/NixieClock.vue",
+  "scripts": {
+    "start": "poi src/index.js",
+    "build": "poi build",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Gustavo Alfredo Marín Sáez (Aterbonus)",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "poi": "^10.1.2",
+    "sass-loader": "^7.0.1",
+    "vuepress": "^0.8.3"
+  },
+  "browserslist": "last 2 versions, ie 10"
+}
