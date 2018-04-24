@@ -1,7 +1,8 @@
 {
-  "name": "vue-nixie-clock",
+  "name": "@aterbonus/vue-nixie-clock",
   "version": "0.1.0",
   "description": "A Nixie Clock Vue Component",
+  "homepage": "https://aterbonus.github.io/vue-nixie-clock/",
   "main": "src/NixieClock.vue",
   "scripts": {
     "start": "poi src/index.js",
@@ -16,6 +17,5 @@
     "poi": "^10.1.2",
     "sass-loader": "^7.0.1",
     "vuepress": "^0.8.3"
-  },
-  "browserslist": "last 2 versions, ie 10"
+  }
 }
