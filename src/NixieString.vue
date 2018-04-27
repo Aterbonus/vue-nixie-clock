@@ -8,6 +8,7 @@
 import NixieChar from './NixieChar'
 
 export default {
+    name: 'nixie-string',
     props: {
         string: {
             type: String,

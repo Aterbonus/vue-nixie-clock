@@ -9,6 +9,7 @@ import NixieChar from './NixieChar'
 import NixieString from './NixieString'
 
 export default {
+    name: 'nixie-clock',
     data() {
         return {
             hours: '00',

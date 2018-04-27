@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "A Nixie Clock Vue Component",
   "homepage": "https://aterbonus.github.io/vue-nixie-clock/",
-  "main": "src/NixieClock.vue",
+  "main": "dist/vue-nixie-clock.js",
   "scripts": {
     "start": "poi src/index.js",
-    "build": "poi build",
+    "build": "poi build src/NixieClock.vue",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },

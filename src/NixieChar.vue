@@ -9,6 +9,7 @@ const charMap = {
 }
 
 export default {
+    name: 'nixie-char',
     props: {
         char: {
             required: true,
