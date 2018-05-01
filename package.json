@@ -9,14 +9,22 @@
     "start": "poi src/index.js",
     "build": "poi build src/NixieClock.vue",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "commit": "git-cz"
   },
   "author": "Gustavo Alfredo Marín Sáez (Aterbonus)",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
     "node-sass": "^4.8.3",
     "poi": "^10.1.5",
     "sass-loader": "^7.0.1",
-    "vuepress": "^0.8.3"
+    "vuepress": "^0.8.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
