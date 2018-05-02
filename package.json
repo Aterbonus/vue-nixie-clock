@@ -1,6 +1,6 @@
 {
   "name": "@aterbonus/vue-nixie-clock",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Nixie Clock Vue Component",
   "homepage": "https://aterbonus.github.io/vue-nixie-clock/",
   "repository": "github:aterbonus/vue-nixie-clock",
