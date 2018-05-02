@@ -28,7 +28,6 @@
     "vuepress": "^0.8.4"
   },
   "config": {
-    "message": "chore(release): %s",
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }

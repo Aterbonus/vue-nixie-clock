@@ -4,7 +4,7 @@ set -e
 BUMP=$(node_modules/.bin/conventional-recommended-bump -p angular)
 
 echo "Using npm version..."
-npm version $BUMP
+npm version --message "chore(release): %s" $BUMP
 echo "Pushing to github..."
 git push --follow-tags
 echo "Publishing..."
