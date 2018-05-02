@@ -12,8 +12,8 @@
     "docs:build": "vuepress build docs",
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "version": "npm run changelog && git add CHANGELOG.md",
-    "release": "npm version $(node_modules/.bin/conventional-recommended-bump -p angular) && git push && npm publish"
+    "version": "npm run build && npm run changelog && git add dist/* CHANGELOG.md",
+    "release": "bash scripts/release.sh"
   },
   "author": "Gustavo Alfredo Marín Sáez (Aterbonus)",
   "license": "MIT",
