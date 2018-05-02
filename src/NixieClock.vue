@@ -41,23 +41,17 @@ export default {
     methods: {
         step() {
             if (this.active) {
-                let date = new Date()
+                const date = new Date()
 
-                this.hours = date
-                    .getHours()
-                    .toString()
-                    .padStart(2, '0')
-                this.minutes = date
-                    .getMinutes()
-                    .toString()
-                    .padStart(2, '0')
-                this.seconds = date
-                    .getSeconds()
-                    .toString()
-                    .padStart(2, '0')
+                this.hours = this.leftPad(date.getHours())
+                this.minutes = this.leftPad(date.getMinutes())
+                this.seconds = this.leftPad(date.getSeconds())
 
                 requestAnimationFrame(this.step)
             }
+        },
+        leftPad(number) {
+            return String(number >= 10 ? number : '0' + number)
         }
     },
     components: {
