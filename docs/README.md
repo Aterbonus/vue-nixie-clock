@@ -1,3 +1,4 @@
 ---
 layout: HomeLayout
+navbar: false
 ---

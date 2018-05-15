@@ -9,7 +9,7 @@
     align-items: center;
     background-color: #000;
     display: flex;
-    height: calc(100vh - 3.6rem);
+    height: 100vh;
     justify-content: center;
 }
 
