@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import NixieChar from './NixieChar'
 import NixieString from './NixieString'
 
 export default {
@@ -55,7 +54,6 @@ export default {
         }
     },
     components: {
-        NixieChar,
         NixieString
     }
 }
