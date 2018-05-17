@@ -13,5 +13,8 @@ module.exports = {
         template: 'src/index.html'
     },
     inlineImageMaxSize: 100000,
-    moduleName: 'VueNixieClock'
+    moduleName: 'VueNixieClock',
+    configureWebpack(config) {
+        config.output.libraryExport = 'default'
+    }
 }
