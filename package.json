@@ -25,7 +25,7 @@
     "node-sass": "^4.8.3",
     "poi": "^10.1.7",
     "sass-loader": "^7.0.1",
-    "vuepress": "^0.8.4"
+    "vuepress": "github:vuejs/vuepress#a51a31b7245af525981313e535061968def4062c"
   },
   "config": {
     "commitizen": {
